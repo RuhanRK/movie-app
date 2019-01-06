@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css?family=Lobster");
+@import url("https://fonts.googleapis.com/css?family=Courgette");
+@import url("https://fonts.googleapis.com/css?family=Carter+One");
+
+.App {
+    text-align: center;
+}
+
+.App-header {
+    background-color: #282c34;
+    /* min-height: 100vh; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    padding: 1rem 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+.App-header h3 {
+    margin: 0;
+    font-family: "Lobster", cursive;
+    letter-spacing: 2px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.App-logo {
+    height: 50px;
+}
+
+.details {
+    font-family: "Courgette", cursive;
+}
+
+.movie-name {
+    color: #019031;
+    font-family: "Carter One", cursive;
+}
+
+.movie-date {
+    color: #f3b431;
+    font-family: "Carter One", cursive;
+}
+
+.movie-details {
+    color: #e74292;
+    font-family: "Carter One", cursive;
+}
+
+.movie {
+    box-shadow: 0 0 29px rgba(119, 116, 116, 0.5);
+}
